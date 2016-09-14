@@ -17,7 +17,16 @@ cd "${SOURCE}"
 
 CONFIGURE_FLAGS="--disable-debug --disable-programs \
                  --disable-doc --enable-pic --incdir=${INCLUDE} \
-                 --libdir=${LIB}"
+                 --libdir=${LIB} \
+                 --disable-videotoolbox  \
+                 --disable-audiotoolbox  \
+                 --disable-vda \
+                 --disable-sdl \
+                 --disable-ffplay \
+                 --disable-ffserver \
+                 --disable-ffprobe \
+                 --disable-ffmpeg"
+                 
                  
 ${SOURCE}/configure ${CONFIGURE_FLAGS} \
                    --target-os=darwin \
