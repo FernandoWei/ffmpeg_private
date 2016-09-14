@@ -36,7 +36,7 @@ ARCHS="x86_64"
 COMPILE="y"
 LIPO="y"
 
-DEPLOYMENT_TARGET="10.10"
+DEPLOYMENT_TARGET="7.0"
 
 if [ "$*" ]
 then
@@ -94,8 +94,8 @@ then
 		CFLAGS="-arch $ARCH"
 		if [ "$ARCH" = "x86_64" ]
 		then
-		    PLATFORM="MacOSX"
-		    CFLAGS="$CFLAGS -mmacosx-version-min=$DEPLOYMENT_TARGET"
+		    PLATFORM="iPhoneSimulator"
+		    CFLAGS="$CFLAGS -miphonesimulator-version-min=$DEPLOYMENT_TARGET"
 		else
 		    PLATFORM="iPhoneOS"
 		    CFLAGS="$CFLAGS -mios-version-min=$DEPLOYMENT_TARGET"

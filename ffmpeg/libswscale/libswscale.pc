@@ -1,0 +1,14 @@
+prefix=/Users/fernando/Development/workspace/ffmpeg_private/ffmpeg
+exec_prefix=${prefix}
+libdir=/Users/fernando/Development/workspace/ffmpeg_private/lib
+includedir=/Users/fernando/Development/workspace/ffmpeg_private/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 4.1.100
+Requires: libavutil >= 55.29.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lswscale -lm
+Libs.private: 
+Cflags: -I${includedir}

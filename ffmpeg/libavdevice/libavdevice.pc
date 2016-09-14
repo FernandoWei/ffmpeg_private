@@ -1,0 +1,14 @@
+prefix=/Users/fernando/Development/workspace/ffmpeg_private/ffmpeg
+exec_prefix=${prefix}
+libdir=/Users/fernando/Development/workspace/ffmpeg_private/lib
+includedir=/Users/fernando/Development/workspace/ffmpeg_private/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 57.0.102
+Requires: libavfilter >= 6.62.100, libswscale >= 4.1.100, libavformat >= 57.48.103, libavcodec >= 57.55.101, libswresample >= 2.1.100, libavutil >= 55.29.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavdevice -framework QuartzCore -framework QuartzCore -framework AppKit -framework OpenGL -framework QuartzCore -framework AppKit -framework OpenGL -framework QTKit -framework Foundation -framework QuartzCore -framework CoreVideo -framework Foundation -framework AVFoundation -framework CoreMedia -framework CoreFoundation -framework VideoToolbox -framework CoreMedia -framework CoreVideo -framework CoreFoundation -framework AudioToolbox -framework CoreMedia -framework VideoDecodeAcceleration -framework CoreFoundation -framework QuartzCore -liconv -Wl,-framework,CoreFoundation -Wl,-framework,Security -L/usr/local/lib -lSDLmain -lSDL -Wl,-framework,Cocoa -framework CoreGraphics -lm -lbz2 -lz -pthread -framework CoreServices
+Libs.private: 
+Cflags: -I${includedir}

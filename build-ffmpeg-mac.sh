@@ -5,6 +5,9 @@ LIB=${PWD}/lib
 INCLUDE=${PWD}/include
 SOURCE=${PWD}/ffmpeg
 
+rm -rf "${LIB}"
+rm -rf "${INCLUDE}"
+
 mkdir -p "${LIB}"
 mkdir -p "${INCLUDE}"
 
@@ -16,9 +19,9 @@ CONFIGURE_FLAGS="--disable-debug --disable-programs \
                  --disable-doc --enable-pic --incdir=${INCLUDE} \
                  --libdir=${LIB}"
                  
-./configure \
-${CONFIGURE_FLAGS} \
---prefix=${PWD} || exit 1
+${SOURCE}/configure ${CONFIGURE_FLAGS} \
+                   --target-os=darwin \
+                   --prefix=${PWD} || exit 1
 
 
 make 2>&1
