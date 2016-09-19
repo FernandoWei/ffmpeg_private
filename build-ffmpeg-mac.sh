@@ -3,7 +3,7 @@
 PWD=`pwd`
 LIB=${PWD}/lib
 INCLUDE=${PWD}/include
-SOURCE=${PWD}/ffmpeg
+SOURCE="ffmpeg-3.1"
 
 rm -rf "${LIB}"
 rm -rf "${INCLUDE}"
@@ -11,9 +11,16 @@ rm -rf "${INCLUDE}"
 mkdir -p "${LIB}"
 mkdir -p "${INCLUDE}"
 
+if [ ! -r $SOURCE ]
+then
+	echo 'FFmpeg source not found. Trying to download...'
+	curl http://www.ffmpeg.org/releases/$SOURCE.tar.bz2 | tar xj \
+			|| exit 1
+fi
+
 echo "Building ffmpeg ......"
 
-cd "${SOURCE}"
+cd ${PWD}/${SOURCE}
 
 CONFIGURE_FLAGS="--disable-debug --disable-programs \
                  --disable-doc --enable-pic --incdir=${INCLUDE} \
@@ -28,9 +35,7 @@ CONFIGURE_FLAGS="--disable-debug --disable-programs \
                  --disable-ffmpeg"
                  
                  
-${SOURCE}/configure ${CONFIGURE_FLAGS} \
-                   --target-os=darwin \
-                   --prefix=${PWD} || exit 1
+./configure ${CONFIGURE_FLAGS} --prefix=${PWD} || exit 1
 
 
 make 2>&1

@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavfilter
+includedir=${pcfiledir}/../../..
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 6.46.102
+Requires: libswscale >= 4.1.100, libavformat >= 57.40.101, libavcodec >= 57.48.101, libswresample >= 2.1.100, libavutil >= 55.27.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavfilter -framework QuartzCore -framework AppKit -framework OpenGL -framework QuartzCore -framework AppKit -framework OpenGL -framework QTKit -framework Foundation -framework QuartzCore -framework CoreVideo -framework Foundation -framework AVFoundation -framework CoreMedia -framework VideoDecodeAcceleration -liconv -Wl,-framework,CoreFoundation -Wl,-framework,Security -framework CoreGraphics -lm -lbz2 -lz -pthread -framework CoreServices
+Cflags: -I${includedir}
