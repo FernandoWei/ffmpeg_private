@@ -1,0 +1,324 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/fernando/Downloads/TBMediaPlayer.podspec (16).json",
+		"/Users/fernando/Downloads/TBMediaPlayer.podspec (12).json",
+		"/Users/fernando/Downloads/TBLiveStream.podspec (1).json",
+		"/Users/fernando/Downloads/TBLiveStream.podspec.json",
+		"/Users/fernando/Downloads/TBMediaPlayer.podspec (3).json",
+		"/Users/fernando/Downloads/notSupportLibs (1).json",
+		"/Users/fernando/Downloads/log 3",
+		"/Users/fernando/Downloads/notSupportLibs.json",
+		"/Users/fernando/Documents/vlc-output-264.flv",
+		"/Users/fernando/Documents/vlc-output.flv",
+		"/Users/fernando/Desktop/vlc-output(1).flv",
+		"/Users/fernando/Downloads/push.flv",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/osal/src/android/compatibility/include/compatibility/audio/AdoAudioSink.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/osal/src/osal_audio_out.cpp",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/osal/include/osal/osal_audio_out.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/include/adofw/hal/hal_hal.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/osal/intra_include/android/audio/hal_audio_android.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/osal/src/android/audio/hal_audio_android.cpp",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/src/component/manager/manager_hal.cpp",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/src/component/hal/hal_hal.cpp",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/src/framework/base/fw_base_base.cpp",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/include/adofw/foundation/ado_sp.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/src/framework/module/processer/module_video_processer.cpp",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/osal/intra_include/android/codec/MediaCodec_compatibility.h",
+		"/Users/fernando/Desktop/白选_log.log",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/external/icu4c/i18n/rbt_pars.cpp",
+		"/Users/fernando/Library/Application Support/Sublime Text 2/Packages/SublimeClang/aliplayer.sublime-project",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/src/framework/module/consumer/module_au_audio_consumer.cpp",
+		"/Users/fernando/Library/Application Support/Sublime Text 2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/.tags_sorted_by_file",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/intra_include/engine/active_playback_engine.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/include/adofw/common/common_macro.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/include/adofw/base/fw_base_config.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/src/framework/base/fw_base_config.cpp",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/intra_include/component/manager/manager_pipelines.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/src/framework/engine/active_playback_engine.cpp",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/include/backup/base/am_types.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/include/adofw/base/fw_base_if.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/include/adofw/common/common_guid.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/include/adofw/common/common_const.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/src/framework/base/fw_base_general.cpp",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/include/adofw/base/fw_base_base.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/include/adofw/base/fw_base_general.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/include/backup/framework/general_header.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/external/libffmpeg/include/libavcodec/avcodec.h",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/src/framework/filter/general_consumer_filter.cpp",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/src/framework/module/consumer/module_omx_audio_consumer.cpp",
+		"/Users/fernando/Work/Live/Player/aliplayer/aliplayer/frameworks/main/adofw/src/framework/module/consumer/module_omx_video_consumer.cpp",
+		"/Users/fernando/Downloads/10_sei.flv",
+		"/Users/fernando/Downloads/adc64c2d-1ed9-4949-99b0-1ce9d8547a6e.flv",
+		"/Users/fernando/Documents/vlc-output.h264"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"av_image_copy",
+			"0605 ff",
+			"06 05ff",
+			"0605 ff",
+			"0605",
+			"06 05ff",
+			"0605 ff",
+			"0605",
+			"0605 ff",
+			"06 05",
+			"06 05ff",
+			"0605 ff",
+			"06 05ff",
+			"06 05",
+			"0605",
+			"06 05",
+			"0605",
+			"06 05",
+			"0605",
+			"0605 ff",
+			"06 05ff",
+			"06 05",
+			"0605",
+			"06 05",
+			"deliver_in",
+			"CameraSource::cameraPermission",
+			"CameraSource::setContinuousAutofocus",
+			"CameraSource::deliver_in",
+			"onDidBecomeActive",
+			"BResourceLoader addLoadingRequest:",
+			"WaitingLoadingRequest",
+			"open_time(-5)",
+			"open_time",
+			"TBMediaPlayerBund",
+			"TBMediaPlayerBundl",
+			"TBMediaPlayerBundle",
+			"SetupDevice",
+			"mpcodecinfo",
+			"AdoAudioSink",
+			"namespace AdoCompatible",
+			"compatibility/audio/AdoAudioSink",
+			"public chal",
+			".Parser",
+			"ProcesserModuleParser",
+			"::ParseModule(",
+			"ParseModule(",
+			"folders",
+			"WaitDataFromPipe",
+			"mCurBuffer",
+			"mpOutput",
+			"OutputBuffer()",
+			"mCurBuffer",
+			"ReadData",
+			"mpParserContext",
+			"ParseModule",
+			"mpWorkQ",
+			"mpWorkQ ",
+			"mpWorkQ=",
+			"mpWorkQ = ",
+			"mpWorkQ",
+			"queue",
+			"workqu\nworkqu",
+			"mpWorkQ",
+			"Construct",
+			"CThread::Create(mpAO->GetActiveNam",
+			"sendMessage",
+			"mConsumer",
+			"mpController",
+			"mpController->SetLooping",
+			"SetConfig",
+			"onRun",
+			"OnRun",
+			"ProcessCMD",
+			"ProcessGenericCmd",
+			"HandleStartPlay",
+			"send",
+			"sendcmd",
+			"start",
+			"ProcessCmd",
+			"fDump",
+			"PerformCmd",
+			"PostCmdWorkQ",
+			"TimeNotify",
+			"GetListenerMainQ",
+			"GetAudioOutHal",
+			"ForceStop",
+			"GetInterface",
+			"FillModuleSpec",
+			"Construct",
+			"ClearParser",
+			"Create",
+			"ParseModule",
+			"Create",
+			"OnRun",
+			"PerformCmd",
+			"SendCmdWorkQ",
+			"OutputBuffer",
+			"GetAudioOutHal",
+			"SetConfig",
+			"BuildPlaybackGragh",
+			"graph",
+			"setup",
+			"pipeline",
+			"onrun",
+			"6161",
+			"0605",
+			"6161 6161",
+			"6161",
+			"61",
+			"6161",
+			"17 01",
+			"2700",
+			"1701",
+			"65",
+			"61 61",
+			"6161",
+			"61 62",
+			"66 61",
+			"6661",
+			"66",
+			"61 62",
+			"6162",
+			"abcd",
+			"62 63",
+			"6263",
+			"61 62",
+			"6162",
+			"27 00"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 313.0,
+	"status_bar_visible": true
+}
